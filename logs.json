@@ -1,0 +1,152 @@
+[
+  {
+    "timestamp": "2026-04-19T22:35:02.509249",
+    "input_type": "gradio_web",
+    "question": "What is in front of me ?\n",
+    "answer": "hair dryer",
+    "reasoning": "Processed via Salesforce/blip-vqa-base visual-text decoder."
+  },
+  {
+    "timestamp": "2026-04-19T22:35:38.746598",
+    "input_type": "gradio_web",
+    "question": "What is in front of me ?\n",
+    "answer": "curtain",
+    "reasoning": "Processed via Salesforce/blip-vqa-base visual-text decoder."
+  },
+  {
+    "timestamp": "2026-04-19T22:36:07.901001",
+    "input_type": "gradio_web",
+    "question": "What is in front of me ?\n",
+    "answer": "woman",
+    "reasoning": "Processed via Salesforce/blip-vqa-base visual-text decoder."
+  },
+  {
+    "timestamp": "2026-04-19T22:43:28.095500",
+    "input_type": "gradio_web",
+    "question": "what is in front of me ?",
+    "answer": "yes",
+    "reasoning": "Processed via Salesforce/blip-vqa-base visual-text decoder."
+  },
+  {
+    "timestamp": "2026-04-19T22:43:32.031463",
+    "input_type": "gradio_web",
+    "question": "what is in front of me ?",
+    "answer": "yes",
+    "reasoning": "Processed via Salesforce/blip-vqa-base visual-text decoder."
+  },
+  {
+    "timestamp": "2026-04-22T19:33:30.130845",
+    "input_type": "gradio_web",
+    "question": "what is in this picture",
+    "answer": "woman",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA."
+  },
+  {
+    "timestamp": "2026-04-23T19:48:41.592731",
+    "input_type": "streamlit_web",
+    "question": "what is in this clip",
+    "answer": "phone",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "7.346"
+  },
+  {
+    "timestamp": "2026-04-23T19:49:05.329171",
+    "input_type": "streamlit_web",
+    "question": "what is in this clip",
+    "answer": "man",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "1.171"
+  },
+  {
+    "timestamp": "2026-04-23T19:49:21.846487",
+    "input_type": "streamlit_web",
+    "question": "what is in this clip",
+    "answer": "hair",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "1.859"
+  },
+  {
+    "timestamp": "2026-04-23T19:51:32.154420",
+    "input_type": "streamlit_web",
+    "question": "describe this image in detail",
+    "answer": "girl with long hair",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "4.675"
+  },
+  {
+    "timestamp": "2026-04-23T19:57:06.094009",
+    "input_type": "streamlit_web",
+    "question": "describe this image in detail",
+    "answer": "girl with blue hair",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "3.321"
+  },
+  {
+    "timestamp": "2026-04-23T20:17:05.950000",
+    "input_type": "streamlit_web",
+    "question": "describe the clip in details",
+    "answer": "I'm sorry, I encountered an error analyzing the image.",
+    "reasoning": "Exception raised: 'PhiForCausalLM' object has no attribute 'generate'",
+    "model_used": "Moondream",
+    "latency_seconds": "23.316"
+  },
+  {
+    "timestamp": "2026-04-23T20:17:50.611165",
+    "input_type": "streamlit_web",
+    "question": "Describe the visible person and clearly mention clothing/outfit color. User question: describe the clip in details",
+    "answer": "I'm sorry, I encountered an error analyzing the image.",
+    "reasoning": "Exception raised: 'PhiForCausalLM' object has no attribute 'generate'",
+    "model_used": "Moondream",
+    "latency_seconds": "19.673"
+  },
+  {
+    "timestamp": "2026-04-23T20:30:29.927814",
+    "input_type": "streamlit_web",
+    "question": "Describe the visible person and clearly mention clothing/outfit color. User question: describe the clip in details",
+    "answer": "The image features a young woman wearing a blue jacket and a tie.",
+    "reasoning": "Processed via vikhyatk/moondream2 1.8-Billion Parameter Small-Vision-Language Model.",
+    "model_used": "vikhyatk/moondream2",
+    "latency_seconds": "208.316"
+  },
+  {
+    "timestamp": "2026-04-23T20:36:22.638005",
+    "input_type": "streamlit_web",
+    "question": "Describe the visible person and clearly mention clothing/outfit color. User question: describe the clip in details",
+    "answer": "The image features a young woman sitting on a bed. She is wearing a white t-shirt.",
+    "reasoning": "Processed via vikhyatk/moondream2 1.8-Billion Parameter Small-Vision-Language Model.",
+    "model_used": "vikhyatk/moondream2",
+    "latency_seconds": "262.824"
+  },
+  {
+    "timestamp": "2026-04-23T21:52:07.944552",
+    "input_type": "streamlit_web",
+    "question": "explain the image in detail",
+    "answer": "people",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA fallback. For richer clothing/color details, use Moondream.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "14.482"
+  },
+  {
+    "timestamp": "2026-04-23T21:52:29.899347",
+    "input_type": "streamlit_web",
+    "question": "Describe the visible person and clearly mention clothing/outfit color. User question: explain the image in detail",
+    "answer": "white shirt and brown pants",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA fallback. For richer clothing/color details, use Moondream.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "9.644"
+  },
+  {
+    "timestamp": "2026-04-23T21:55:33.464060",
+    "input_type": "streamlit_web",
+    "question": "explain the image in detail",
+    "answer": "jar of jelly beans",
+    "reasoning": "Processed via salesforce/blip-vqa-base base VQA fallback. For richer clothing/color details, use Moondream.",
+    "model_used": "salesforce/blip-vqa-base",
+    "latency_seconds": "7.990"
+  }
+]

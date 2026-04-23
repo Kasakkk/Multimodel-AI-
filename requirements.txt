@@ -1,0 +1,8 @@
+torch>=2.0.0
+transformers>=4.46.0,<4.50.0
+accelerate>=0.21.0
+opencv-python>=4.5.0
+pillow>=9.0.0
+streamlit>=1.30.0
+numpy>=1.24,<2.2
+packaging>=20,<26
